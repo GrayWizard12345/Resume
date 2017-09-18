@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<div class="container">
+    <section id="content">
+        <form action="login.php" method="post">
+            <h1>Login</h1>
+            <div>
+                <input type="text" placeholder="Username" id="name" />
+            </div>
+            <div>
+                <input type="password" placeholder="Password" id="password" />
+            </div>
+            <div>
+                <input type="submit" value="Log in" />
+                <a href="#">Lost your password?</a>
+                <a href="SignUp.php">Register</a>
+            </div>
+        </form><!-- form -->
+    </section><!-- content -->
+</div><!-- container -->
+
+
+
+</form>
+
+
+<script>
+    function goToSignUp() {
+        window.location.href = "SignUp.php";
+    }
+</script>
+
+
+</body>
+</html>

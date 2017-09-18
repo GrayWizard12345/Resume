@@ -1,0 +1,33 @@
+fieldset{
+    background-color: #ffffcc;
+    margin-left: auto; margin-right: auto;
+    width: 21em;
+}
+
+form{
+    font-family: "Helvetica" , sans-serif;
+}
+
+input{
+    margin-bottom: 0.5em;
+}
+
+input[type="submit"]{
+
+    font-weight: bold;
+    margin-left: 10em;
+}
+
+label.heading{
+    float: left;
+    margin-right: 1em;
+    text-align: center;
+    width: 7em;
+}
+
+legend{
+
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.25em;
+}
